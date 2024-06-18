@@ -19,9 +19,9 @@ public class BunTest {
     @Parameterized.Parameters
     public static Object[][] bunTest(){
         return new Object[][]{
-                {"Черная булка", 100f},
-                {"Белая булка", 200f},
-                {"Красная булка", 300f}
+                {"Черная булка", 100.0f},
+                {"Булочка", 200},
+                {"", -300f}
         };
     }
 
